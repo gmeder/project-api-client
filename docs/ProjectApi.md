@@ -8,6 +8,7 @@ Method | HTTP request | Description
 [**getProjects**](ProjectApi.md#getProjects) | **GET** /projects | 
 [**getProjectsByStatus**](ProjectApi.md#getProjectsByStatus) | **GET** /projects/status/{status} | 
 
+
 <a name="getProjectById"></a>
 # **getProjectById**
 > Project getProjectById(projectId)
@@ -49,7 +50,7 @@ No authorization required
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: */*
+ - **Accept**: Not defined
 
 <a name="getProjects"></a>
 # **getProjects**
@@ -88,7 +89,7 @@ No authorization required
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: */*
+ - **Accept**: Not defined
 
 <a name="getProjectsByStatus"></a>
 # **getProjectsByStatus**
@@ -131,5 +132,5 @@ No authorization required
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: */*
+ - **Accept**: Not defined
 
